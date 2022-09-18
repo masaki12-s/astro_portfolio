@@ -1,3 +1,12 @@
+# HomePage公開用リポジトリ
+## pages Link
+[github.io](masaki12-s.github.io)
+
+## 使用技術
+- Astro
+- html
+- css
+
 # Astro Starter Kit: Portfolio
 
 ```
