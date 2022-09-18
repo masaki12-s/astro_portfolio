@@ -1,6 +1,6 @@
 # HomePage公開用リポジトリ
 ## pages Link
-[github.io](masaki12-s.github.io)
+[github.io](https://masaki12-s.github.io)
 
 ## 使用技術
 - Astro
