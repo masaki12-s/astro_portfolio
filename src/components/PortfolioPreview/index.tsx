@@ -1,7 +1,19 @@
 import { h } from 'preact';
 import Styles from './styles.module.scss';
 
-function PortfolioPreview({ project }) {
+interface PortfolioPreviewProps {
+	project: {
+		frontmatter: {
+			title: string;
+			img: string;
+			description: string;
+			tags: string[];
+		};
+		url: string;
+	};
+}
+
+const PortfolioPreview = ({ project }: PortfolioPreviewProps) => {
 	const { frontmatter } = project;
 	return (
 		<div className={Styles.card}>

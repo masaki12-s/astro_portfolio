@@ -1,7 +1,7 @@
-import { h } from 'preact';
 import Styles from './styles.module.scss';
+import { h, FunctionComponent } from 'preact'; // Import the h function
 
-function Nav() {
+const Nav: FunctionComponent = () => {
 	return (
 		<nav className={Styles.nav}>
 			<a className={Styles.logolink} href="/">

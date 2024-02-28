@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+	  "jsx": "react",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
     // Enable top-level await, and other modern ESM features.
     "target": "ESNext",
     "module": "ESNext",
@@ -14,6 +17,9 @@
     // Enable strict type checking.
     "strict": true,
     // Error when a value import is only used as a type.
-    "importsNotUsedAsValues": "error"
+    "importsNotUsedAsValues": "error",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": true,
   }
 }
