@@ -7,9 +7,9 @@ const Nav: FunctionComponent = () => {
 			<a className={Styles.logolink} href="/">
 				<div className={Styles.monogram}>JW</div>
 			</a>
-			<a className={Styles.link} href="/projects">
+			{/* <a className={Styles.link} href="/portfolio">
 				Portfolio
-			</a>
+			</a> */}
 			<a className={Styles.link} href="/about">
 				About
 			</a>

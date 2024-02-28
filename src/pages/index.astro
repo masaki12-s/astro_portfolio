@@ -17,8 +17,8 @@ const featuredProject = projects[0];
 <html lang="en">
 	<head>
 		<MainHead
-			title="Jeanine White: Personal Site"
-			description="Jeanine White: Developer, Speaker, and Writer..."
+			title="Masaki Sanada: Personal Site"
+			description="Masaki Sanada's personal site."
 		/>
 		<style lang="scss">
 			$w-s: 750px;
@@ -193,8 +193,7 @@ const featuredProject = projects[0];
 				width="1600"
 				height="1100"
 				class="img"
-				src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=75"
-				srcset="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=75 800w,https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=75 1200w,https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1600&q=75 1600w,https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=2400&q=75 2400w"
+				src="../../public/assets/marina_bay.JPEG",
 				sizes="(max-width: 800px) 800px, (max-width: 1200px) 1200px, (max-width: 1600px) 1600px, (max-width: 2400px) 2400px, 1200px"
 			/>
 			<div class="gradient"></div>
@@ -205,45 +204,48 @@ const featuredProject = projects[0];
 				</h1>
 				<div>
 					<span class="role">👩‍💻 Developer <span class="invert">👩‍💻 Developer</span></span>&nbsp;
-					<span class="role">🎤 Speaker <span class="invert">🎤 Speaker</span></span>&nbsp;
-					<span class="role">✏️ Writer <span class="invert">✏️ Writer</span></span>&nbsp;
+					<!-- <span class="role">🎤 Speaker <span class="invert">🎤 Speaker</span></span>&nbsp;
+					<span class="role">✏️ Writer <span class="invert">✏️ Writer</span></span>&nbsp; -->
 				</div>
-				<p class="desc">Lover of dogs, roadtrips, and poetry.</p>
+				<!-- <p class="desc">Lover of dogs, roadtrips, and poetry.</p> -->
 			</div>
 		</header>
 		<main class="wrapper mt4 mb4">
 			<div class="grid">
 				<div class="section">
-					<h3 class="sectionTitle">Selected Work</h3>
-					<PortfolioPreview project={featuredProject} />
-					<div class="tac mt4">
-						<a href="/projects">
-							<Button>View All</Button>
-						</a>
-					</div>
-				</div>
-				<div class="section">
 					<h3 class="sectionTitle">About me</h3>
 					<p class="bio">
-						<span>学歴</span> 
-						2015年 4月 奈良工業高等専門学校情報工学科 入学 <br>
-						2020年 3月 奈良工業高等専門学校情報工学科 卒業 <br>
-						2020年 4月 奈良工業高等専門学校情報工学科 専攻科 入学 <br>
-						2022年 3月 奈良工業高等専門学校情報工学科 専攻科 卒業 <br>
-						2022年 4月 奈良先端科学技術大学院大学 先端科学技術研究科 入学 <br>
-						
+						<span>自己紹介</span>
+						所属: 奈良先端科学技術大学院大学 先端科学技術研究科 <br>
 					</p>
+					
 					<p class="bio">
 						<span>研究内容</span> 
-						
 					</p>
 					<p>
 						<a href="/about">Read more</a>
 					</p>
+				</div>
+				<div class="section">
+					<h3 class="sectionTitle">Socials</h3>
+					<p>
+						<a href="https://twitter.com/ma_rururu12">
+							<Button>Twitter</Button>
+						</a>
+						<a href="https://github.com/masaki12-s">
+							<Button>GitHub</Button>
+						</a>
+					</p>
+					<!-- <PortfolioPreview project={featuredProject} /> -->
+					<!-- <div class="tac mt4">
+						<a href="/projects">
+							<Button>View All</Button>
+						</a>
+					</div> -->
 				</div>
 			</div>
 		</main>
 		<Footer />
 	</body>
 </html>
-../components/Button../components/Footer/index.js../components/Nav/index.js../components/PortfolioPreview/index.js
+<!-- ../components/Button../components/Footer/index.js../components/Nav/index.js../components/PortfolioPreview/index.js -->
